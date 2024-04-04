@@ -69,3 +69,18 @@ input{
     line-height: 123%;
     color: #3d3d3d;
 }
+.btn{
+margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background: #46a358;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+}
+.img{
+    margin-right: 9px
+}
+
