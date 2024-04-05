@@ -15,6 +15,17 @@ input{
     height: 40px;
     box-sizing: border-box
 }
+.btn{
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    background: #46a358;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+}
 .container{
     max-width: 500px;
     margin: auto;
@@ -54,3 +65,23 @@ input{
     align-items: center;
     text-decoration: none;
 }
+.container p:first-of-type{
+    margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+}
+.container p:last-of-type{
+    text-align:center;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 123%;
+    color: #3d3d3d;
+}
+
+.img{
+    margin-right: 9px
+}
+
