@@ -120,5 +120,10 @@ header .login:before {
 .banner article a{
     margin-bottom: 5px;
     margin-left: 43px;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    background: #46a358;
+    text-decoration: none;
 
 }
