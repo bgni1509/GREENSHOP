@@ -1,8 +1,11 @@
 .container{
     max-width: 1200px;
     margin: auto;
-    border-bottom: 0.30px solid #46a358;
-    }
+    height: 63px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+
+
+}
 header{
         padding-top: 31px;
 
@@ -46,6 +49,7 @@ header .login{
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+
 }
 header .login a{
     margin-top: 30px;
@@ -59,6 +63,7 @@ header nav li:after{
     display: block;
     margin-top: 22px;
     transition: 0.3s;
+
 }
 header nav li a:hover:after{
     font-weight: 700;
