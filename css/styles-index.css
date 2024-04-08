@@ -50,9 +50,11 @@ header .login{
     font-size: 16px;
     color: #fff;
 
+
 }
 header .login a{
     margin-top: 30px;
+
 }
 header nav li:after{
     height: 3px;
@@ -64,15 +66,29 @@ header nav li:after{
     margin-top: 22px;
     transition: 0.3s;
 
+
 }
 header nav li a:hover:after{
     font-weight: 700;
+
 
 }
 header nav li:hover:after{
         background-color: #46a358;
 }
-header .login:before{
-    content:url("../images/Logout.svg");
+header .login:before {
+    content: url("../images/Logout.svg");
 
+
+}
+.banner .container2{
+
+    max-width: 1200px;
+    min-height: 450px;
+    margin: auto;
+    background: linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%);
+}
+.banner article{
+    max-width: 557px;
+display: inline-block;
 }
