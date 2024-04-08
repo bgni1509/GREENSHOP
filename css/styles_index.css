@@ -1,0 +1,71 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+header{
+        padding-top: 31px;
+
+}
+header nav, header nav li, header .logo{
+    display: inline-block;
+}
+header ul{
+    list-style: none;
+}
+header nav li a{
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+}
+header .logo{
+    margin-right: 229px;
+}
+header .login{
+    margin-left: 370px;
+
+
+}
+header nav li{
+    margin-right:50px;
+}
+header nav li:last-of-type{
+    margin-right:0;
+}
+header nav li a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+header .login{
+    border-radius: 6px;
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    width: 100px;
+    height: 35px;
+}
+
+header nav li:after{
+    height: 3px;
+    /*background-color: #46a358;*/
+    background-color: transparent;
+    width: 100%;
+    content: "";
+    display: block;
+    margin-top: 22px;
+    transition: 0.3s;
+}
+header nav li a:hover:after {
+    font-weight: 700;
+
+}
+header nav li:hover:after{
+        background-color: #46a358;
+}
+header .login:before{
+    content:url("../images/Logout.svg");
+
+}
