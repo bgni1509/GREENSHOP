@@ -1,8 +1,8 @@
 .container{
     max-width: 1200px;
     margin: auto;
-
-}
+    border-bottom: 0.30px solid #46a358;
+    }
 header{
         padding-top: 31px;
 
@@ -39,15 +39,17 @@ header nav li a{
     color: #3d3d3d;
 }
 header .login{
+    width: 100px;
+    height: 35px;
     border-radius: 6px;
     background: #46a358;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-    width: 100px;
-    height: 35px;
 }
-
+header .login a{
+    margin-top: 30px;
+}
 header nav li:after{
     height: 3px;
     /*background-color: #46a358;*/
@@ -58,7 +60,7 @@ header nav li:after{
     margin-top: 22px;
     transition: 0.3s;
 }
-header nav li a:hover:after {
+header nav li a:hover:after{
     font-weight: 700;
 
 }
