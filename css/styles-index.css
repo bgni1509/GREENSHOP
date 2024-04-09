@@ -8,6 +8,7 @@ header .container{
 }
 header{
         padding-top: 31px;
+        margin-bottom: 10px;
 
 }
 header nav, header nav li, header .logo{
@@ -19,6 +20,9 @@ header ul{
 header nav li a{
     text-decoration: none;
 }
+header nav li a:hover {
+    font-weight: 700;
+}
 header a{
     text-decoration: none;
 }
@@ -26,8 +30,8 @@ header .logo{
     margin-right: 229px;
 }
 header .login{
-    margin-left: 370px;
-
+float: right;
+    text-align: center;
 
 }
 header nav li{
@@ -92,16 +96,15 @@ header .login:before {
     margin-right: 93px;
     display: inline-block;
 }
-.h4{
-
-    margin-bottom: 5px;
-    margin-left: 43px;
+.container2 h4{
+    padding-top: 68px;
+    padding-left: 43px;
 
 
 }
-.h1{
-    margin-bottom: 5px;
-    margin-left: 43px;
+.container2 h1{
+    padding-top: 5px;
+    padding-left: 43px;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -109,20 +112,26 @@ header .login:before {
     color: #3d3d3d;
 
 }
-.h1 span{
+.container2 h1:after{
+    content: "Planet";
     color: #46a358;
 
 }
-.p {
+.container2 p{
     margin-bottom: 44px;
     margin-left: 43px;
 }
-.banner article a{
-    margin-bottom: 5px;
-    margin-left: 43px;
+.container2 article a{
+
+    padding-left: 43px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    background: #46a358;
     border-radius: 6px;
     width: 140px;
     height: 40px;
-    background: #46a358;
-    text-decoration: none;
 }
