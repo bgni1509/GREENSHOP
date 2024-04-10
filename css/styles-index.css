@@ -156,9 +156,9 @@ header .login:before {
     margin-bottom: 44px;
     margin-left: 43px;
 }
-.container2 article a{
-
-    padding-left: 43px;
+.container2 a{
+    margin-left: 43px;
+    padding-left: 26px;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -167,6 +167,7 @@ header .login:before {
     text-decoration: none;
     background: #46a358;
     border-radius: 6px;
-    width: 140px;
-    height: 40px;
+    padding-top: 11px;
+    padding-right: 27px;
+    padding-bottom: 9px;
 }
