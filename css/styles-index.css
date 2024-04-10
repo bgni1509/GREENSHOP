@@ -46,6 +46,7 @@ header{
 header nav, header nav li, header .logo{
     display: inline-block;
 }
+
 header ul{
     list-style: none;
 }
@@ -60,15 +61,20 @@ header a{
 }
 header .logo{
     margin-right: 229px;
+    float: left;
 }
 header .login{
-float: right;
+    float: right;
     text-align: center;
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 8px;
 
 }
 header nav li{
     margin-right:50px;
-    margin-top: 38px;
+    margin-top: 8px;
 }
 header nav li:last-of-type{
     margin-right:0;
@@ -80,10 +86,8 @@ header nav li a{
     color: #3d3d3d;
 }
 
-header .login a{
-    margin-top: 30px;
-    width: 100px;
-    height: 35px;
+header .login{
+    margin-top: 0;
     border-radius: 6px;
     background: #46a358;
     font-weight: 500;
@@ -98,7 +102,7 @@ header nav li:after{
     width: 100%;
     content: "";
     display: block;
-    margin-top: 22px;
+    margin-top: 31px;
     transition: 0.3s;
 
 
@@ -113,7 +117,7 @@ header nav li:hover:after{
 }
 header .login:before {
     content: url("../images/Logout.svg");
-
+    margin-right: 4px;
 }
 .banner .container2{
     max-width: 1200px;
