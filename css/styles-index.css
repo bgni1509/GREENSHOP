@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cera_problack';
+    src: url('../fonts/cerapro-black-webfont.eot');
+    src: url('../fonts/cerapro-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-black-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-black-webfont.woff') format('woff'),
+    url('../fonts/cerapro-black-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-black-webfont.svg#cera_problack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -36,16 +68,20 @@ float: right;
 }
 header nav li{
     margin-right:50px;
+    margin-top: 38px;
 }
 header nav li:last-of-type{
     margin-right:0;
 }
 header nav li a{
+    font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
 }
-header .login{
+
+header .login a{
+    margin-top: 30px;
     width: 100px;
     height: 35px;
     border-radius: 6px;
@@ -53,11 +89,6 @@ header .login{
     font-weight: 500;
     font-size: 16px;
     color: #fff;
-
-
-}
-header .login a{
-    margin-top: 30px;
 
 }
 header nav li:after{
@@ -83,7 +114,6 @@ header nav li:hover:after{
 header .login:before {
     content: url("../images/Logout.svg");
 
-
 }
 .banner .container2{
     max-width: 1200px;
@@ -105,6 +135,7 @@ header .login:before {
 .container2 h1{
     padding-top: 5px;
     padding-left: 43px;
+    font-family: 'cera_problack';
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
