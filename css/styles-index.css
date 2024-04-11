@@ -64,13 +64,20 @@ header .logo{
     float: left;
 }
 header .login{
+    align-items: center;
+    display: flex;
     float: right;
     text-align: center;
     padding-top: 8px;
     padding-left: 17px;
     padding-right: 17px;
     padding-bottom: 8px;
-
+    margin-top: 0;
+    border-radius: 6px;
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
 }
 header nav li{
     margin-right:50px;
@@ -86,15 +93,6 @@ header nav li a{
     color: #3d3d3d;
 }
 
-header .login{
-    margin-top: 0;
-    border-radius: 6px;
-    background: #46a358;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-
-}
 header nav li:after{
     height: 3px;
     /*background-color: #46a358;*/
@@ -157,6 +155,8 @@ header .login:before {
     margin-left: 43px;
 }
 .container2 a{
+    display: inline-block;
+    margin-top: 44px;
     margin-left: 43px;
     padding-left: 26px;
     font-weight: 700;
