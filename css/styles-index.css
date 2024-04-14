@@ -155,12 +155,12 @@ header .login:before {
 }
 .container2 h4{
     padding-top: 68px;
-    padding-left: 43px;
+    padding-left: 40px;
     font-family: 'cera_promedium';
 }
 .container2 h1{
     padding-top: 5px;
-    padding-left: 43px;
+    padding-left: 40px;
     font-family: 'cera_problack';
     font-weight: 900;
     font-size: 70px;
@@ -176,14 +176,14 @@ header .login:before {
 }
 .container2 p{
     margin-bottom: 44px;
-    margin-left: 43px;
+    margin-left: 40px;
     font-family: 'cera_proregular';
 }
 .container2 a{
     display: inline-block;
     margin-top: 44px;
     margin-bottom: 85px;
-    margin-left: 43px;
+    margin-left: 40px;
     padding-left: 26px;
     font-weight: 700;
     font-size: 16px;
@@ -197,4 +197,7 @@ header .login:before {
     padding-right: 27px;
     padding-bottom: 9px;
     font-family: 'cera_probold';
+}
+.container2 img{
+    float: right;
 }
