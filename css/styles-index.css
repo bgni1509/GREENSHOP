@@ -213,6 +213,7 @@ header .login:before {
     max-width: 310px;
     background: #fbfbfb;
     margin-top: 71px;
+    margin-bottom: 577px;
 }
 .categories .container3 ul{
 
@@ -223,22 +224,42 @@ header .login:before {
     height: 383px;
     margin-top: 14px;
     margin-left: 18px;
-    flex-direction: column;
+    margin-bottom: 377px;
 }
 .categories .container3 ul{
     margin-top: 7px;
 }
 .categories .container3 li{
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-decoration: none;
+    line-height: 267%;
 }
+
 .categories .container3 li:last-of-type{
     margin-bottom: 0;
 }
 .categories .container3 li a{
     text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+
+
 }
 .container3 img{
     float: left;
+    margin-left: -29px;
+
+
+}
+.categories h1{
+   margin-top: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.categories .container3 .left_sidebar ul a:hover{
+    content:" ";
+    color: #46a358;
 }
