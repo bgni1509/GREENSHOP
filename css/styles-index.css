@@ -293,10 +293,11 @@ header .login:before {
 .categories .right_content .flex_2 ul{
     display: flex;
     list-style: none;
+
 }
 .categories .right_content .flex_2 ul li{
     margin-right: 40px;
-    margin-top: 0;
+    margin-top: -11px;
 }
 
 .categories .right_content .flex_2 ul li a{
@@ -313,6 +314,7 @@ header .login:before {
     line-height: 267%;
     font-weight: 400;
     color: #3d3d3d;
+
 }
 
 .categories .right_content .flex_2 ul li a:hover:after{
