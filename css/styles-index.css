@@ -311,7 +311,7 @@ header .login:before {
 }
 .categories .right_content .flex_2 ul li{
     margin-right: 40px;
-    margin-top: -11px;
+    margin-top: 0;
 }
 
 .categories .right_content .flex_2 ul li a{
@@ -324,13 +324,13 @@ header .login:before {
 
 
 }
-.categories .right_content .flex_2 ul{
-    font-size: 15px;
-    line-height: 267%;
-    font-weight: 400;
-    color: #3d3d3d;
+/*.categories .right_content .flex_2 ul{*/
+/*    font-size: 15px;*/
+/*    line-height: 267%;*/
+/*    font-weight: 400;*/
+/*    color: #3d3d3d;*/
 
-}
+/*}*/
 
 .categories .right_content .flex_2 ul li a:hover:after{
     background-color: #46a358;
@@ -414,4 +414,93 @@ header .login:before {
 }
 .categories .right_content .flex_3 .article9{
     margin-top: 87px;
+}
+.categories .right_content .flex_4 ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top: 90px;
+
+}
+.categories .right_content .flex_4 .li1 a{
+    text-decoration: none;
+}
+.categories .right_content .flex_4 .li1 a{
+    padding-left: 12px;
+}
+.categories .right_content .flex_4 .li2 a{
+    text-decoration: none;
+}
+.categories .right_content .flex_4 .li2 a{
+    padding-left: 12px;
+}
+.categories .right_content .flex_4 .li3 a{
+    text-decoration: none;
+}
+.categories .right_content .flex_4 .li3 a{
+    padding-left: 12px;
+}
+.categories .right_content .flex_4 .li4 a{
+    text-decoration: none;
+}
+.categories .right_content .flex_4 .li4 a{
+    padding-left: 12px;
+}
+/*.categories .right_content .flex_4 li a{*/
+/*    text-decoration: none;*/
+/*    padding-left: 12px;*/
+
+
+/*}*/
+.categories .right_content .flex_4 .li5 a{
+    text-decoration: none;
+
+}
+.categories .right_content .flex_4 .li1 a:first-of-type{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+}
+.categories .right_content .flex_4 .li2 a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.categories .right_content .flex_4 .li3 a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.categories .right_content .flex_4 .li4 a{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+
+.categories .right_content .flex_4 ul li{
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-family: 'Cera Pro-Light';
+
+}
+.categories .right_content .flex_4 ul li:first-of-type{
+    background: #46a358;
+    font-family: 'cera_probold';
+
+}
+.categories .right_content .flex_4 .li5 a:before{
+    content: url("../images/ArrowRight2.svg");
+    align-items: center;
+    display: flex;
+    padding-left: 9px;
+
 }
