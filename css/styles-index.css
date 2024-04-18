@@ -46,6 +46,18 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Cera Pro-Light';
+    src: url('../fonts/CeraPro-Light.eot');
+    src: url('../fonts/CeraPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraPro-Light.woff2') format('woff2'),
+    url('../fonts/CeraPro-Light.woff') format('woff'),
+    url('../fonts/CeraPro-Light.ttf') format('truetype'),
+    url('../fonts/CeraPro-Light.svg#CeraPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
 *{
     padding: 0;
@@ -222,6 +234,7 @@ header .login:before {
     color: #3d3d3d;
     margin-top: 14px;
     margin-left: 18px;
+    font-family: 'cera_probold';
 }
 .categories .container3 .left_sidebar ul{
 
@@ -244,6 +257,7 @@ header .login:before {
     margin-bottom: 20px;
     text-decoration: none;
     line-height: 267%;
+    font-family: 'Cera Pro-Light';
 }
 
 .categories .container3 li:last-of-type{
@@ -260,7 +274,7 @@ header .login:before {
 .container3 .left_sidebar img{
     float: left;
     margin-left: -29px;
-    margin-top: 216px;
+    margin-top: 211px;
 
 
 }
@@ -306,6 +320,7 @@ header .login:before {
     line-height: 107%;
     color: #3d3d3d;
     text-decoration: none;
+    font-family: 'cera_proregular';
 
 
 }
@@ -345,6 +360,7 @@ header .login:before {
     font-size: 15px;
     line-height: 107%;
     color: #3d3d3d;
+    font-family: 'cera_proregular';
 }
 .categories .right_content .flex_3{
     display: flex;
@@ -364,6 +380,7 @@ header .login:before {
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
+    font-family: 'cera_proregular';
 }
 .categories .right_content .flex_3 article span{
     display: flex;
@@ -375,6 +392,7 @@ header .login:before {
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
+    font-family: 'cera_probold';
 }
 .categories .right_content .flex_3 article .h4{
     padding-top: 24px;
