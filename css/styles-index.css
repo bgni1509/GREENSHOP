@@ -232,7 +232,7 @@ header .login:before {
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
-    margin-top: 14px;
+    margin-top: 12px;
     margin-left: 18px;
     font-family: 'cera_probold';
 }
@@ -243,9 +243,7 @@ header .login:before {
 .categories .container3 .left_sidebar nav{
     width: 103px;
     height: 383px;
-    margin-top: 14px;
     margin-left: 18px;
-    margin-bottom: 377px;
     display: contents;
 }
 .categories .container3 .left_sidebar ul{
@@ -254,9 +252,8 @@ header .login:before {
 }
 .categories .container3 .left_sidebar li{
     margin-top: 15px;
-    margin-bottom: 20px;
     text-decoration: none;
-    line-height: 267%;
+    line-height: 160%;
     font-family: 'Cera Pro-Light';
 }
 
@@ -274,17 +271,17 @@ header .login:before {
 .container3 .left_sidebar img{
     float: left;
     margin-left: -29px;
-    margin-top: 211px;
+    margin-top: 375px;
 
 
 }
-.categories .left_sidebar h1{
-   margin-top: 14px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
-    color: #3d3d3d;
-}
+/*.categories .left_sidebar h1{*/
+/*   margin-top: 12px;*/
+/*    font-weight: 700;*/
+/*    font-size: 18px;*/
+/*    line-height: 89%;*/
+/*    color: #3d3d3d;*/
+/*}*/
 .categories .container3 .left_sidebar li a:hover{
 
     color: #46a358;
@@ -398,22 +395,28 @@ header .login:before {
     padding-top: 24px;
 }
 .categories .right_content .flex_3 .article4{
-    margin-top: 87px;
+    margin-top: 70px;
 }
 .categories .right_content .flex_3 .article5{
-    margin-top: 87px;
+    margin-top: 70px;
 }
 .categories .right_content .flex_3 .article6{
-    margin-top: 87px;
+    margin-top: 70px;
 }
 .categories .right_content .flex_3 .article7{
-    margin-top: 87px;
+    margin-top: 70px;
+}
+.categories .right_content .flex_3 .article7 .h4Frame7{
+    padding-top: 21px;
 }
 .categories .right_content .flex_3 .article8{
-    margin-top: 87px;
+    margin-top: 70px;
 }
 .categories .right_content .flex_3 .article9{
-    margin-top: 87px;
+    margin-top: 70px;
+}
+.categories .right_content .flex_3 .article9 .h4Frame9{
+    padding-top: 21px;
 }
 .categories .right_content .flex_4 ul{
     display: flex;
