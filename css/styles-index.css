@@ -225,7 +225,7 @@ header .login:before {
     max-width: 310px;
     background: #fbfbfb;
     margin-top: 71px;
-    margin-bottom: 577px;
+    /*margin-bottom: 577px;*/
 }
 .categories .left_sidebar .h1{
     font-weight: 700;
@@ -505,5 +505,158 @@ header .login:before {
     align-items: center;
     display: flex;
     padding-left: 9px;
+}
+.find_more .two_banner{
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    min-height: 302px;
+    margin-top: 96px;
+    align-items: flex-end;
+}
+.find_more .two_banner .product_map1{
+    /*width: 586px;*/
+    /*height: 250px;*/
+    background: #fbfbfb;
+    justify-content: flex-end;
+    display: flex;
 
+}
+.find_more .two_banner .product_map1 img{
+    position: relative;
+    margin-top: -44px;
+    mix-blend-mode: multiply;
+    margin-bottom: 10px;
+    display: flex;
+    /*left: 677px;*/
+    margin-right: -226px;
+
+}
+.find_more .two_banner .product_map1 span{
+    margin-right: 30px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+.find_more .two_banner .product_map1 span h2{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    margin-top: 37px;
+    font-family: 'cera_problack';
+
+}
+.find_more .two_banner .product_map1 span h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-top: 9px;
+    font-family: 'cera_proregular';
+}
+.find_more .two_banner .product_map1 span a{
+    margin-top: 25px;
+    border-radius: 6px;
+    /*width: 140px;*/
+    /*height: 40px;*/
+    background: #46a358;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 360px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-bottom: 9px;
+    display: flex;
+    font-family: 'cera_promedium';
+
+}
+.find_more .two_banner .product_map1 span a:after{
+    content: url("../images/ArrowRight.svg");
+    padding-top: 2px;
+    padding-left: 6px;
+}
+/*.find_more .two_banner{*/
+/*    display: flex;*/
+/*    max-width: 1200px;*/
+/*    justify-content: space-between;*/
+/*    margin: auto;*/
+/*    min-height: 302px;*/
+/*}*/
+.find_more .two_banner .product_map2{
+    /*width: 586px;*/
+    /*height: 250px;*/
+    background: #fbfbfb;
+    justify-content: flex-end;
+    display: flex;
+
+}
+.find_more .two_banner .product_map2 img{
+    position: relative;
+    margin-top: -44px;
+    mix-blend-mode: multiply;
+    margin-bottom: 10px;
+    display: flex;
+    /*left: 677px;*/
+    margin-right: -226px;
+
+}
+.find_more .two_banner .product_map2 span{
+    margin-right: 30px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+.find_more .two_banner .product_map2 span h2{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    margin-top: 37px;
+    font-family: 'cera_problack';
+
+}
+.find_more .two_banner .product_map2 span h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-top: 9px;
+    font-family: 'cera_proregular';
+}
+.find_more .two_banner .product_map2 span a{
+    margin-top: 25px;
+    border-radius: 6px;
+    /*width: 140px;*/
+    /*height: 40px;*/
+    background: #46a358;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 360px;
+    padding-right: 27px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-bottom: 9px;
+    display: flex;
+    font-family: 'cera_promedium';
+
+}
+.find_more .two_banner .product_map2 span a:after{
+    content: url("../images/ArrowRight.svg");
+    padding-top: 2px;
+    padding-left: 6px;
 }
