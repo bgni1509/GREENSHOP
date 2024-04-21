@@ -592,8 +592,8 @@ header .login:before {
 /*    min-height: 302px;*/
 /*}*/
 .find_more .two_banner .product_map2{
-    /*width: 586px;*/
-    /*height: 250px;*/
+    /*<width: 586px;*/
+    /*height: 250px;>*/
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
@@ -660,3 +660,109 @@ header .login:before {
     padding-top: 2px;
     padding-left: 6px;
 }
+.blog .our_blog{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 447px;
+    flex-direction: column;
+
+}
+.blog .span_title{
+    /*width: 1200px;*/
+    /*height: 50px;*/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*margin: auto;*/
+    margin-top: 138px;
+}
+.blog .span_title h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+}
+.blog .span_title h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    font-family: 'cera_proregular';
+    margin-top: 15px;
+}
+.blog .span_map{
+    display: flex;
+    margin-top: 35px;
+}
+.blog .span_map article{
+    margin-right: 44px;
+    background: #fbfbfb;
+    margin-bottom: 68px;
+
+}
+
+.blog .span_map article h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin-top: 9px;
+    margin-left: 15px;
+    font-family: 'cera_promedium';
+}
+.blog .span_map article h2{
+    margin-top: 9px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    font-family: 'cera_probold';
+}
+.blog .span_map article h4{
+    margin-top: 9px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    font-family: 'cera_proregular';
+
+}
+.blog .span_map article a{
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    font-family: 'cera_promedium';
+    text-decoration: none;
+    display: flex;
+}
+.blog .span_map article .green_button{
+    color: #46a358;
+}
+
+.blog .span_map article a:after{
+    content: url("../images/ArrowRight3.svg");
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.blog .span_map article .green_button:after{
+    content: url("../images/ArrowRight4.svg");
+    margin-left: 3px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
