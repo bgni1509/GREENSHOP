@@ -226,6 +226,7 @@ header .login:before {
     background: #fbfbfb;
     margin-top: 71px;
     /*margin-bottom: 577px;*/
+    height: 783px;
 }
 .categories .left_sidebar .h1{
     font-weight: 700;
@@ -516,8 +517,8 @@ header .login:before {
     align-items: flex-end;
 }
 .find_more .two_banner .product_map1{
-    /*width: 586px;*/
-    /*height: 250px;*/
+    min-width: 586px;
+    height: 250px;
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
@@ -529,17 +530,19 @@ header .login:before {
     mix-blend-mode: multiply;
     margin-bottom: 10px;
     display: flex;
-    /*left: 677px;*/
-    margin-right: -226px;
+    left: 0;
+    /*margin-right: -226px;*/
 
 }
-.find_more .two_banner .product_map1 span{
-    margin-right: 30px;
+.find_more .two_banner .product_map1 div{
+    margin-right: 18px;
     text-align: end;
     display: flex;
     flex-direction: column;
+    align-items: end;
+    max-width: 292px;
 }
-.find_more .two_banner .product_map1 span h2{
+.find_more .two_banner .product_map1 div h2{
     font-weight: 900;
     font-size: 18px;
     line-height: 133%;
@@ -550,7 +553,7 @@ header .login:before {
     font-family: 'cera_problack';
 
 }
-.find_more .two_banner .product_map1 span h4{
+.find_more .two_banner .product_map1 div h4{
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -559,27 +562,27 @@ header .login:before {
     margin-top: 9px;
     font-family: 'cera_proregular';
 }
-.find_more .two_banner .product_map1 span a{
+.find_more .two_banner .product_map1 div a{
     margin-top: 25px;
     border-radius: 6px;
-    /*width: 140px;*/
-    /*height: 40px;*/
+    width: 140px;
+    height: 40px;
     background: #46a358;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
     color: #fff;
     text-decoration: none;
-    margin-left: 360px;
-    padding-right: 27px;
+    padding-right: 26px;
     padding-top: 10px;
-    padding-left: 29px;
+    padding-left: 26px;
     padding-bottom: 9px;
     display: flex;
     font-family: 'cera_promedium';
+    justify-content: center;
 
 }
-.find_more .two_banner .product_map1 span a:after{
+.find_more .two_banner .product_map1 div a:after{
     content: url("../images/ArrowRight.svg");
     padding-top: 2px;
     padding-left: 6px;
@@ -593,10 +596,11 @@ header .login:before {
 /*}*/
 .find_more .two_banner .product_map2{
     /*<width: 586px;*/
-    /*height: 250px;>*/
+    height: 250px;
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
+    max-width: 586px;
 
 }
 .find_more .two_banner .product_map2 img{
@@ -605,17 +609,19 @@ header .login:before {
     mix-blend-mode: multiply;
     margin-bottom: 10px;
     display: flex;
-    /*left: 677px;*/
-    margin-right: -226px;
+    left: 0;
+    /*margin-right: -226px;*/
 
 }
-.find_more .two_banner .product_map2 span{
-    margin-right: 30px;
+.find_more .two_banner .product_map2 div{
+    margin-right: 18px;
     text-align: end;
     display: flex;
     flex-direction: column;
+    max-width: 292px;
+    align-items: end;
 }
-.find_more .two_banner .product_map2 span h2{
+.find_more .two_banner .product_map2 div h2{
     font-weight: 900;
     font-size: 18px;
     line-height: 133%;
@@ -626,7 +632,7 @@ header .login:before {
     font-family: 'cera_problack';
 
 }
-.find_more .two_banner .product_map2 span h4{
+.find_more .two_banner .product_map2 div h4{
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -635,19 +641,18 @@ header .login:before {
     margin-top: 9px;
     font-family: 'cera_proregular';
 }
-.find_more .two_banner .product_map2 span a{
+.find_more .two_banner .product_map2 div a{
     margin-top: 25px;
     border-radius: 6px;
-    /*width: 140px;*/
-    /*height: 40px;*/
+    width: 140px;
+    height: 40px;
     background: #46a358;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
     color: #fff;
     text-decoration: none;
-    margin-left: 360px;
-    padding-right: 27px;
+    padding-right: 26px;
     padding-top: 10px;
     padding-left: 29px;
     padding-bottom: 9px;
@@ -655,7 +660,7 @@ header .login:before {
     font-family: 'cera_promedium';
 
 }
-.find_more .two_banner .product_map2 span a:after{
+.find_more .two_banner .product_map2 div a:after{
     content: url("../images/ArrowRight.svg");
     padding-top: 2px;
     padding-left: 6px;
