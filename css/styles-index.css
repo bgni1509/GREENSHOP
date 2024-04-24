@@ -710,6 +710,9 @@ header .login:before {
     max-width: 268px;
 
 }
+.blog .div_map article div{
+    margin-left: 15px;
+}
 .blog .div_map article img{
     margin-bottom: 9px;
 }
@@ -719,12 +722,12 @@ header .login:before {
     font-size: 14px;
     line-height: 114%;
     color: #46a358;
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     font-family: 'cera_promedium';
     margin-bottom: 9px;
 }
 .blog .div_map article h2{
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     font-weight: 700;
     font-size: 20px;
     line-height: 130%;
@@ -733,7 +736,7 @@ header .login:before {
     margin-bottom: 9px;
 }
 .blog .div_map article h4{
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
@@ -743,7 +746,7 @@ header .login:before {
 
 }
 .blog .div_map article a{
-    margin-left: 15px;
+    /*margin-left: 15px;*/
     margin-bottom: 12px;
     font-weight: 500;
     font-size: 14px;
@@ -751,7 +754,7 @@ header .login:before {
     color: #3d3d3d;
     font-family: 'cera_promedium';
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
 }
 .blog .div_map article .green_button{
     color: #46a358;
