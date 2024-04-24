@@ -522,20 +522,20 @@ header .login:before {
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
+    position: relative;
 
 }
 .find_more .two_banner .product_map1 img{
-    position: relative;
+    position: absolute;
     margin-top: -44px;
     mix-blend-mode: multiply;
     margin-bottom: 10px;
     display: flex;
     left: 0;
-    /*margin-right: -226px;*/
 
 }
 .find_more .two_banner .product_map1 div{
-    margin-right: 18px;
+    margin-right: 30px;
     text-align: end;
     display: flex;
     flex-direction: column;
@@ -595,26 +595,25 @@ header .login:before {
 /*    min-height: 302px;*/
 /*}*/
 .find_more .two_banner .product_map2{
-    /*<width: 586px;*/
     height: 250px;
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
-    max-width: 586px;
+    min-width: 586px;
+    position: relative;
 
 }
 .find_more .two_banner .product_map2 img{
-    position: relative;
+    position: absolute;
     margin-top: -44px;
     mix-blend-mode: multiply;
     margin-bottom: 10px;
     display: flex;
     left: 0;
-    /*margin-right: -226px;*/
 
 }
 .find_more .two_banner .product_map2 div{
-    margin-right: 18px;
+    margin-right: 30px;
     text-align: end;
     display: flex;
     flex-direction: column;
