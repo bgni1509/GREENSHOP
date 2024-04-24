@@ -226,7 +226,7 @@ header .login:before {
     background: #fbfbfb;
     margin-top: 71px;
     /*margin-bottom: 577px;*/
-    height: 783px;
+    height: 790px;
 }
 .categories .left_sidebar .h1{
     font-weight: 700;
@@ -272,7 +272,7 @@ header .login:before {
 .container3 .left_sidebar img{
     float: left;
     margin-left: -29px;
-    margin-top: 385px;
+    margin-top: 393px;
 
 
 }
@@ -415,6 +415,21 @@ header .login:before {
     padding-top: 8px;
     padding-right: 9px;
     padding-left: 6px;
+}
+.categories .right_content .flex_3 article div{
+    width: 80px;
+    height: 29px;
+    background: #46a358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    font-family: 'cera_promedium';
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 9px;
+    position: absolute;
+    top: 14px;
 }
 .categories .right_content .flex_3 article h4{
     display: flex;
