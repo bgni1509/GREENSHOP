@@ -352,6 +352,7 @@ header .login:before {
     max-width: 258px;
     margin-top: 31px;
     margin-left: 0;
+    position: relative;
 }
 .categories .right_content .flex_2 p{
     font-weight: 400;
@@ -366,6 +367,21 @@ header .login:before {
     width: 838px;
     flex-wrap: wrap;
 
+}
+.categories .right_content .flex_3 article div{
+    min-width: 125px;
+    height: 35px;
+    position: absolute;
+    right: 62px;
+    bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.categories .right_content .flex_3 article div img{
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    background: #fff;
 }
 .categories .right_content .flex_3 article h4{
     display: flex;
