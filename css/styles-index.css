@@ -431,6 +431,7 @@ header .login:before {
     position: absolute;
     top: 14px;
 }
+
 .categories .right_content .flex_3 article h4{
     display: flex;
     margin-left: 0;
@@ -482,6 +483,29 @@ header .login:before {
 }
 .categories .right_content .flex_3 .article9 .h4Frame9{
     padding-top: 12px;
+}
+.categories .right_content .flex_3 .Frame3_sale{
+    width: 66px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 89%;
+    color: #a5a5a5;
+    position: absolute;
+    left: 80px;
+    top: 331px;
+    font-family: 'cera_proregular';
+
+}
+.categories .right_content .flex_3 article .Frame3_sale:after{
+    content: "";
+    height: 1px;
+    background-color: #cbcbcb;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 6px;
+
 }
 .categories .right_content .flex_4 ul{
     display: flex;
