@@ -416,6 +416,10 @@ header .login:before {
     padding-right: 9px;
     padding-left: 6px;
 }
+.categories .right_content .flex_3 article li a:hover path{
+    fill: #46A358;
+
+}
 .categories .right_content .flex_3 article div{
     width: 80px;
     height: 29px;
