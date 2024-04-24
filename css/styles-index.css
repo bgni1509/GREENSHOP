@@ -353,6 +353,26 @@ header .login:before {
     margin-top: 31px;
     margin-left: 0;
     position: relative;
+
+}
+.categories .right_content .flex_3 article{
+    border-top: solid 1px transparent;
+}
+/*або так*/
+/*.categories .right_content .flex_3 article:after{*/
+/*    width: 258px;*/
+/*    height: 1px;*/
+/*    !*background: #46a358;*!*/
+/*    background: transparent;*/
+/*    content: "";*/
+/*    display: block;*/
+/*    transition: 0.3s;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*}*/
+.categories .right_content .flex_3 article:hover{
+    border-color: #46a358;
+    /*background: #46a358;*/
 }
 .categories .right_content .flex_2 p{
     font-weight: 400;
@@ -368,20 +388,33 @@ header .login:before {
     flex-wrap: wrap;
 
 }
-.categories .right_content .flex_3 article div{
+
+.categories .right_content .flex_3 article ul{
     min-width: 125px;
     height: 35px;
     position: absolute;
-    right: 62px;
+    right: 66px;
     bottom: 57px;
+    /*display: flex;*/
+    opacity: 0;
+    list-style: none;
+}
+.categories .right_content .flex_3 article ul li{
     display: flex;
     justify-content: space-between;
+    min-width: 125px;
 }
-.categories .right_content .flex_3 article div img{
+.categories .right_content .flex_3 article:hover ul{
+    opacity: 1;
+}
+.categories .right_content .flex_3 article ul li a{
     border-radius: 4px;
     width: 35px;
     height: 35px;
     background: #fff;
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-left: 6px;
 }
 .categories .right_content .flex_3 article h4{
     display: flex;
@@ -409,7 +442,7 @@ header .login:before {
     font-family: 'cera_probold';
 }
 .categories .right_content .flex_3 article .h4{
-    padding-top: 24px;
+    padding-top: 12px;
 }
 .categories .right_content .flex_3 .article4{
     margin-top: 70px;
@@ -424,7 +457,7 @@ header .login:before {
     margin-top: 70px;
 }
 .categories .right_content .flex_3 .article7 .h4Frame7{
-    padding-top: 21px;
+    padding-top: 12px;
 }
 .categories .right_content .flex_3 .article8{
     margin-top: 70px;
@@ -433,7 +466,7 @@ header .login:before {
     margin-top: 70px;
 }
 .categories .right_content .flex_3 .article9 .h4Frame9{
-    padding-top: 21px;
+    padding-top: 12px;
 }
 .categories .right_content .flex_4 ul{
     display: flex;
