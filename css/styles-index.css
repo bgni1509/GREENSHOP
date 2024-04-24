@@ -553,10 +553,18 @@ header .login:before {
 
 }
 .categories .right_content .flex_4 .li1 a:first-of-type{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    /*color: #fff;*/
+}
+.categories .right_content .flex_4 .li1:first-of-type:hover a{
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #fff;
+    font-family: 'cera_probold';
 }
 .categories .right_content .flex_4 .li2 a{
     font-weight: 300;
@@ -588,10 +596,16 @@ header .login:before {
     font-family: 'Cera Pro-Light';
 
 }
-.categories .right_content .flex_4 ul li:first-of-type{
+.categories .right_content .flex_4 ul li:hover{
     background: #46a358;
-    font-family: 'cera_probold';
 
+}
+.categories .right_content .flex_4 ul li:hover a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    font-family: 'cera_probold';
 }
 .categories .right_content .flex_4 .li5 a:before{
     content: url("../images/ArrowRight2.svg");
