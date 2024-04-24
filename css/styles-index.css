@@ -551,6 +551,7 @@ header .login:before {
     color: #3d3d3d;
     margin-top: 37px;
     font-family: 'cera_problack';
+    margin-bottom: 9px;
 
 }
 .find_more .two_banner .product_map1 div h4{
@@ -559,11 +560,10 @@ header .login:before {
     line-height: 171%;
     text-align: right;
     color: #727272;
-    margin-top: 9px;
     font-family: 'cera_proregular';
+    margin-bottom: 25px;
 }
 .find_more .two_banner .product_map1 div a{
-    margin-top: 25px;
     border-radius: 6px;
     width: 140px;
     height: 40px;
@@ -629,6 +629,7 @@ header .login:before {
     color: #3d3d3d;
     margin-top: 37px;
     font-family: 'cera_problack';
+    margin-bottom: 9px;
 
 }
 .find_more .two_banner .product_map2 div h4{
@@ -637,11 +638,10 @@ header .login:before {
     line-height: 171%;
     text-align: right;
     color: #727272;
-    margin-top: 9px;
     font-family: 'cera_proregular';
+    margin-bottom: 25px;
 }
 .find_more .two_banner .product_map2 div a{
-    margin-top: 25px;
     border-radius: 6px;
     width: 140px;
     height: 40px;
@@ -688,6 +688,7 @@ header .login:before {
     text-align: center;
     color: #3d3d3d;
     font-family: 'cera_probold';
+    margin-bottom: 15px;
 }
 .blog .span_title h4{
     font-weight: 400;
@@ -696,7 +697,7 @@ header .login:before {
     text-align: center;
     color: #727272;
     font-family: 'cera_proregular';
-    margin-top: 15px;
+
 }
 .blog .span_map{
     display: flex;
