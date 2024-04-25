@@ -864,19 +864,26 @@ header .login:before {
 }
 .blog .div_map article a:hover{
     color: #46a358;
+
 }
 
-.blog .div_map article a:after{
-    content: url("../images/ArrowRight3.svg");
-    margin-left: 3px;
+/*.blog .div_map article a:after{*/
+/*    content: url("../images/ArrowRight3.svg");*/
+/*    margin-left: 3px;*/
+/*    margin-top: 2px;*/
+/*}*/
+/*.blog .div_map article .green_button:after{*/
+/*    content: url("../images/ArrowRight3.svg");*/
+/*    margin-left: 3px;*/
+/*    margin-top: 2px;*/
+/*}*/
+.blog .div_map article a svg{
     margin-top: 2px;
-}
-.blog .div_map article .green_button:after{
-    content: url("../images/ArrowRight3.svg");
     margin-left: 3px;
-    margin-top: 2px;
 }
-
+.blog .div_map article a:hover svg path{
+    fill: #46A358;
+}
 
 
 
