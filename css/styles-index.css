@@ -671,8 +671,8 @@ header .login:before {
 }
 .find_more .two_banner .product_map1 div a{
     border-radius: 6px;
-    width: 140px;
-    height: 40px;
+    /*width: 140px;*/
+    /*height: 40px;*/
     background: #46a358;
     font-weight: 500;
     font-size: 14px;
@@ -749,8 +749,8 @@ header .login:before {
 }
 .find_more .two_banner .product_map2 div a{
     border-radius: 6px;
-    width: 140px;
-    height: 40px;
+    /*width: 140px;*/
+    /*height: 40px;*/
     background: #46a358;
     font-weight: 500;
     font-size: 14px;
