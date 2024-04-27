@@ -58,6 +58,19 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'encode_sans_semi_expandedRg';
+    src: url('../fonts/encodesanssemiexpanded-regular-webfont.eot');
+    src: url('../fonts/encodesanssemiexpanded-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/encodesanssemiexpanded-regular-webfont.woff2') format('woff2'),
+    url('../fonts/encodesanssemiexpanded-regular-webfont.woff') format('woff'),
+    url('../fonts/encodesanssemiexpanded-regular-webfont.ttf') format('truetype'),
+    url('../fonts/encodesanssemiexpanded-regular-webfont.svg#encode_sans_semi_expandedRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 *{
     padding: 0;
@@ -84,6 +97,15 @@ header nav, header nav li, header .logo{
 
 header ul{
     list-style: none;
+}
+header nav ul {
+    display: flex;
+    position: relative;
+
+}
+header nav ul .dropdown li{
+    display: block;
+
 }
 header nav li a{
     text-decoration: none;
@@ -142,7 +164,7 @@ header nav li:after{
 
 
 }
-header nav li a:hover:after{
+header nav li:hover:after{
     font-weight: 700;
 
 
@@ -150,9 +172,60 @@ header nav li a:hover:after{
 header nav li:hover:after{
         background-color: #46a358;
 }
+
+header nav ul .dropdown{
+    display: block;
+    background: #edf6ee;
+    position: absolute;
+    top: 73px;
+    left: 126px;
+    width: 188px;
+    height: 143px;
+    opacity: 0;
+}
+header nav ul .dropdown li{
+    display: block;
+    margin-right: 0;
+    margin-top: 0;
+    height: 35px;
+    padding-top: 7px;
+    padding-left: 14px;
+    font-family: 'encode_sans_semi_expandedRg';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+
+}
+header nav ul .dropdown .li_four svg{
+    position: absolute;
+    right: 17px;
+    bottom: 16px;
+}
+header nav ul .dropdown li:hover:after{
+    background-color: transparent;
+
+}
+header nav ul li .drop{
+    position: relative;
+    margin-right:50px;
+    margin-top: 8px;
+}
+header nav ul li .drop a:hover ul .dropdown{
+    opacity: 1;
+    height: 0;
+}
 header .login:before {
     content: url("../images/Logout.svg");
     margin-right: 4px;
+}
+header nav ul .dropdown2{
+    display: block;
+    background: #edf6ee;
+    position: absolute;
+    top: 0;
+    left: 191px;
+    width: 178px;
+    height: 215px;
 }
 .banner .container2{
     max-width: 1200px;
@@ -434,6 +507,15 @@ header .login:before {
     padding-left: 9px;
     position: absolute;
     top: 14px;
+    animation: off 1s infinite;
+}
+@keyframes off {
+0%{
+    left: 0;
+}
+    100%{
+        right: 0;
+    }
 }
 
 .categories .right_content .flex_3 article h4{
