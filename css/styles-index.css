@@ -110,7 +110,7 @@ header nav ul .dropdown li{
 header nav li a{
     text-decoration: none;
 }
-header nav li a:hover {
+header nav li:hover a {
     font-weight: 700;
 }
 header a{
@@ -164,11 +164,11 @@ header nav li:after{
 
 
 }
-header nav li:hover:after{
-    font-weight: 700;
+/*header nav li:hover:after{*/
+/*    font-weight: 700;*/
 
 
-}
+/*}*/
 header nav li:hover:after{
         background-color: #46a358;
 }
@@ -205,15 +205,12 @@ header nav ul .dropdown li:hover:after{
     background-color: transparent;
 
 }
-header nav ul li .drop{
+header nav li .drop{
     position: relative;
     margin-right:50px;
     margin-top: 8px;
 }
-header nav ul li .drop a:hover ul .dropdown{
-    opacity: 1;
-    height: 0;
-}
+
 header .login:before {
     content: url("../images/Logout.svg");
     margin-right: 4px;
@@ -232,6 +229,10 @@ header nav ul .dropdown2{
     min-height: 450px;
     margin: auto;
     background: linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%);
+}
+header nav .drop:hover .dropdown{
+    opacity: 1;
+
 }
 .banner .container2 article{
     max-width: 592px;
