@@ -244,6 +244,9 @@ header ul .li_four:hover .dropdown2{
 header ul .li_four:hover svg{
     rotate: 180deg;
 }
+header ul .dropdown li:hover{
+    background: #1a712a;
+}
 .banner .container2 article{
     max-width: 592px;
     margin-right: 93px;
