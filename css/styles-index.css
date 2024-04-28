@@ -180,8 +180,9 @@ header nav ul .dropdown{
     top: 73px;
     left: 126px;
     width: 188px;
-    height: 143px;
+    height: 153px;
     opacity: 0;
+    padding-top: 10px;
 
 }
 header nav ul .dropdown li{
@@ -224,10 +225,11 @@ header nav ul .dropdown2{
     background: #edf6ee;
     position: absolute;
     top: 0;
-    left: 191px;
+    left: 190px;
     width: 178px;
-    height: 215px;
+    height: 225px;
     opacity: 1;
+    padding-top: 10px;
 }
 header nav ul .dropdown2 li a{
     font-family: 'encode_sans_semi_expandedRg';
@@ -244,6 +246,7 @@ header nav ul .dropdown2 li a{
 header nav ul .drop:hover .dropdown{
     opacity: 1;
     display: block;
+
 
 }
 header ul .drop:hover .dropdown2{
