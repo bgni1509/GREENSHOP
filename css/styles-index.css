@@ -191,11 +191,14 @@ header nav ul .dropdown li{
     height: 35px;
     padding-top: 7px;
     padding-left: 14px;
+
+
+}
+header nav ul .dropdown li a{
     font-family: 'encode_sans_semi_expandedRg';
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
-
 }
 header nav ul .dropdown .li_four svg{
     position: absolute;
@@ -226,6 +229,12 @@ header nav ul .dropdown2{
     height: 215px;
     opacity: 1;
 }
+header nav ul .dropdown2 li a{
+    font-family: 'encode_sans_semi_expandedRg';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
+}
 .banner .container2{
     max-width: 1200px;
     min-height: 450px;
@@ -243,6 +252,13 @@ header ul .drop:hover .dropdown2{
 header ul .li_four:hover .dropdown2{
     opacity: 1;
     display: block;
+
+}
+header ul .li_four:hover .dropdown2 a{
+    font-family: 'encode_sans_semi_expandedRg';
+    font-weight: 400;
+    font-size: 16px;
+    color: #3d3d3d;
 }
 header ul .li_four:hover svg{
     rotate: 180deg;
@@ -250,6 +266,17 @@ header ul .li_four:hover svg{
 header ul .dropdown li:hover{
     background: #1a712a;
 }
+header ul .dropdown li:hover a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+header ul .li_four:hover .dropdown2 li:hover a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
 .banner .container2 article{
     max-width: 592px;
     margin-right: 93px;
