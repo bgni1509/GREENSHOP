@@ -177,14 +177,17 @@ header nav ul .dropdown{
     display: none;
     background: #edf6ee;
     position: absolute;
-    top: 73px;
+    top: 63px;
     left: 126px;
     width: 188px;
-    height: 141px;
+    height: 151px;
     opacity: 0;
 
-
 }
+header nav ul .dropdown{
+    border-top: 10px solid white;
+}
+
 header nav ul .dropdown li{
     display: block;
     margin-right: 0;
@@ -225,7 +228,7 @@ header nav ul .dropdown2{
     background: #edf6ee;
     position: absolute;
     top: 0;
-    left: 190px;
+    left: 189px;
     width: 178px;
     height: 210px;
     opacity: 1;
