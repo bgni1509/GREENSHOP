@@ -1144,6 +1144,121 @@ footer .inp_btn input{
     font-family: 'cera_proregular';
     padding-left: 11px;
 }
+footer .middle_footer{
+    width: 1200px;
+    height: 88px;
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer .middle_footer .middle_footer_svg{
+    margin-top: 27px;
+    margin-left: 23px;
+    margin-right: 155px;
+}
+
+footer .first_p_middle_footer{
+    width: 205px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    margin-top: 27px;
+    margin-right: 155px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .first_p_middle_footer svg{
+    margin-top: 9px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+}
+footer .first_p_middle_footer{
+    width: 206px;
+    height: 44px;
+    display: flex;
+}
+footer .first_p_middle_footer .spn_first_p_middle_footer{
+    width: 176px;
+    height: 44px;
+    display: flex;
+}
+
+footer .second_p_middle_footer{
+    width: 195px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    margin-top: 33px;
+    margin-right: 155px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .second_p_middle_footer svg{
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+footer .second_p_middle_footer .second_p_middle_footer{
+    width: 165px;
+    height: 22px;
+    display: flex;
+}
+footer .third_p_middle_footer{
+    width: 140px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    margin-top: 33px;
+    margin-right: 22px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer .third_p_middle_footer svg{
+    margin-top: 1px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+footer .third_p_middle_footer{
+    width: 140px;
+    height: 22px;
+    display: flex;
+}
+footer .bottom_footer{
+    width: 1200px;
+    height: 236px;
+    background: #fbfbfb;
+    margin: auto;
+    margin-bottom: 6px;
+}
+footer .p_bottom_footer{
+    width: 257px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    font-family: 'cera_proregular';
+    margin: auto;
+}
 
 
 
