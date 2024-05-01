@@ -744,11 +744,16 @@ header ul .li_four:hover .dropdown2 li:hover a{
     color: #fff;
     font-family: 'cera_probold';
 }
-.categories .right_content .flex_4 .li5 a:before{
-    content: url("../images/ArrowRight2.svg");
+.categories .right_content .flex_4 .li5{
     align-items: center;
     display: flex;
     padding-left: 9px;
+}
+.categories .right_content .flex_4 .li5 svg{
+    margin-top: 6px;
+}
+.categories .right_content .flex_4 ul li:hover a svg path{
+    stroke: #fff;
 }
 .find_more .two_banner{
     display: flex;
@@ -1111,7 +1116,6 @@ footer .form_h2 h4{
 footer .inp_btn{
     width: 354px;
     height: 40px;
-    position: relative;
     margin-bottom: 18px;
 
 
@@ -1357,10 +1361,10 @@ footer .bottom_footer .social_bottom_footer .h2_social{
 }
 footer .bottom_footer .border_bottom{
     width: 100%;
-    border: 1px solid rgba(70, 163, 88, 0.2);
+    border: 1px solid transparent;
     display: flex;
     margin-top: 26px;
-
+    background: rgba(70, 163, 88, 0.2);
 }
 
 
