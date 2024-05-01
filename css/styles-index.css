@@ -1248,6 +1248,8 @@ footer .bottom_footer{
     background: #fbfbfb;
     margin: auto;
     margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
 }
 footer .p_bottom_footer{
     width: 257px;
@@ -1258,6 +1260,12 @@ footer .p_bottom_footer{
     color: #3d3d3d;
     font-family: 'cera_proregular';
     margin: auto;
+}
+footer .bottom_footer nav ul{
+    list-style: none;
+}
+footer .social_bottom_footer ul{
+    list-style: none;
 }
 
 

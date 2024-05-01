@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1200px){
+    header .container{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .banner .container2{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
