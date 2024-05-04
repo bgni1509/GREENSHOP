@@ -1212,8 +1212,8 @@ footer .middle_footer p a{
     text-decoration: none;
 }
 footer .first_p_middle_footer{
-    width: 206px;
-    height: 44px;
+    max-width: 206px;
+    min-height: 44px;
     display: flex;
 }
 footer .first_p_middle_footer .spn_first_p_middle_footer{
