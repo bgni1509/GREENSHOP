@@ -338,6 +338,20 @@ header ul .li_four:hover .dropdown2 li:hover a{
     padding-bottom: 9px;
     font-family: 'cera_probold';
 }
+.container2 a:hover{
+    background: #fff;
+
+}
+.container2 a:hover{
+    color: #46a358;
+
+}
+.container2 a:hover{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 150%;
+    transition: 0.5s;
+}
 .container2 .left_sidebar img{
     float: right;
 }
