@@ -138,6 +138,24 @@ header .login{
     font-family: 'cera_promedium';
 
 }
+/*header .login:before{*/
+/*    content: url("../images/Logout.svg");*/
+/*    margin-right: 4px;*/
+/*}*/
+header .login svg{
+    margin-right: 4px;
+}
+header .login:hover{
+    background: #f5f5f5;
+}
+header .login:hover{
+    color: #46a358;
+    font-weight: 700;
+    font-size: 25px;
+}
+header .login:hover path{
+    stroke: #46A358;
+}
 header nav li{
     margin-right:50px;
     margin-top: 8px;
@@ -219,10 +237,7 @@ header nav li .drop{
     margin-top: 8px;
 }
 
-header .login:before {
-    content: url("../images/Logout.svg");
-    margin-right: 4px;
-}
+
 header nav ul .dropdown2{
     display: none;
     background: #edf6ee;
@@ -1352,6 +1367,7 @@ footer .bottom_footer .social_bottom_footer img{
     margin-bottom: 20px;
     mix-blend-mode: multiply;
 }
+
 
 
 
