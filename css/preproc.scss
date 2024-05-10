@@ -482,3 +482,24 @@ footer {
 .loaded .preloader {
   display: none;
 }
+.owl-prev{
+  span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--buttons-color, var(--global-black-5));
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
