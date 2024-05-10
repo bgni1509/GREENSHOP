@@ -1,10 +1,7 @@
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
+window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+    }, 500);
 }
