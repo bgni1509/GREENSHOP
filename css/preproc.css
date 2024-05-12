@@ -44,7 +44,9 @@
 .container {
   max-width: 1200px;
   margin: auto;
-  height: 63px; }
+  min-height: 63px;
+  display: flex;
+  justify-content: space-between; }
 
 header .container {
   border-bottom: 1px solid rgba(70, 163, 88, 0.5); }
@@ -53,15 +55,15 @@ header {
   padding-top: 31px;
   margin-bottom: 10px; }
 
-header nav, header nav li, header .logo {
-  display: inline-block; }
-
 header ul {
   list-style: none; }
 
 header nav ul {
   display: flex;
   position: relative; }
+
+header nav {
+  padding-right: 200px; }
 
 header nav ul .dropdown li {
   display: block; }
@@ -75,10 +77,6 @@ header nav li:hover a {
 header a {
   text-decoration: none; }
 
-header .logo {
-  margin-right: 229px;
-  float: left; }
-
 header .logo:hover img {
   transform: rotate(360deg);
   transition: 1s; }
@@ -86,7 +84,6 @@ header .logo:hover img {
 header .login {
   align-items: center;
   display: flex;
-  float: right;
   text-align: center;
   padding-top: 8px;
   padding-left: 17px;
@@ -98,7 +95,8 @@ header .login {
   font-weight: 500;
   font-size: 16px;
   color: #fff;
-  font-family: 'cera_promedium'; }
+  font-family: 'cera_promedium';
+  max-height: 35px; }
 
 /*header .login:before{*/
 /*    content: url("../images/Logout.svg");*/

@@ -4,7 +4,10 @@
     min-height: 450px;
     margin: auto;
     background: linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%);
+    display: flex;
+    justify-content: space-between;
 }
+
 .banner .container2 article{
     max-width: 592px;
     margin-right: 93px;
@@ -55,6 +58,7 @@
     padding-bottom: 9px;
     font-family: 'cera_probold';
 }
+
 /*.container2 a:hover{*/
 /*    background: #fff;*/
 
@@ -79,7 +83,7 @@
 .categories .container3{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     max-width: 1200px;
     margin: auto;
 
@@ -89,7 +93,9 @@
     background: #fbfbfb;
     margin-top: 71px;
     /*margin-bottom: 577px;*/
-    height: 790px;
+    max-height: 790px;
+    display: flex;
+    flex-direction: column;
 }
 .categories .left_sidebar .h1{
     font-weight: 700;
@@ -105,10 +111,10 @@
     list-style: none;
 }
 .categories .container3 .left_sidebar nav{
-    width: 103px;
-    height: 383px;
-    margin-left: 18px;
-    display: contents;
+    min-width: 103px;
+    max-height: 383px;
+    /*margin-left: 18px;*/
+    display: flex;
 }
 .categories .container3 .left_sidebar ul{
     margin-top: 7px;
@@ -133,9 +139,11 @@
 
 }
 .container3 .left_sidebar img{
-    float: left;
+    /*float: left;*/
     margin-left: -29px;
-    margin-top: 393px;
+    margin-top: 385px;
+    display: flex;
+    min-width: 370px;
 
 
 }
@@ -158,16 +166,22 @@
 
 /*    color: #46a358;*/
 /*}*/
+.categories .right_content{
+    display: flex;
+    flex-direction: column;
+}
 .categories .right_content .flex_2{
     display: flex;
     justify-content: space-between;
-    width: 838px;
-    height: 23px;
+    max-width: 838px;
+    min-height: 23px;
     margin-top: 73px;
 }
+
 .categories .right_content .flex_2 ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 
 }
 .categories .right_content .flex_2 ul li{
@@ -247,7 +261,7 @@
 .categories .right_content .flex_3{
     display: flex;
     justify-content: space-between;
-    width: 838px;
+    max-width: 838px;
     flex-wrap: wrap;
 
 }
@@ -388,6 +402,11 @@
     list-style: none;
     justify-content: flex-end;
     margin-top: 90px;
+
+}
+.categories .right_content .flex_4{
+    display: flex;
+    justify-content: flex-end;
 
 }
 .categories .right_content .flex_4 .li1 a{
