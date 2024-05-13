@@ -161,13 +161,17 @@
         align-items: center;
     }
     .find_more .two_banner .product_map1{
-        margin-bottom: 35px;
+        margin-bottom: 50px;
+    }
+    .find_more .two_banner .product_map2{
+        margin-bottom: 15px;
     }
     .find_more .two_banner .product_map1 div{
         margin-right: 15px;
     }
     .find_more .two_banner .product_map2 div{
         margin-right: 15px;
+
     }
 }
 @media only screen and (max-width: 525px){
@@ -175,28 +179,72 @@
         flex-direction: column;
         background: none;
         max-height: 419px;
-        max-width: 350px;
+        min-width: 292px;
     }
     .find_more .two_banner .product_map2{
         flex-direction: column;
         background: none;
         max-height: 459px;
-        max-width: 350px;
+        min-width: 292px;
+        margin-bottom: 10px;
     }
     .find_more .two_banner .product_map1 img{
         position: inherit;
+        max-width: 292px;
+        margin-bottom: 0;
     }
     .find_more .two_banner .product_map2 img{
         position: inherit;
+        max-width: 292px;
+        margin-bottom: 0;
     }
     .find_more .two_banner .product_map1 div{
-        /*margin-left: 100px;*/
+        align-items: center;
+        margin-right: 0;
     }
     .find_more .two_banner .product_map2 div{
-        /*margin-left: 100px;*/
+        align-items: center;
+        margin-right: 0;
     }
-    .find_more .two_banner{
-        margin: auto;
+    .find_more .two_banner .product_map1 div h2{
+        text-align: center;
+    }
+    .find_more .two_banner .product_map2 div h2{
+        text-align: center;
+    }
+    .find_more .two_banner .product_map1 div h4{
+        text-align: center;
+    }
+    .find_more .two_banner .product_map2 div h4{
+        text-align: center;
+    }
+    .find_more .two_banner .product_map1 div .but_ton:hover{
+
+        border: none;
+    }
+        .find_more .two_banner .product_map2 div .but_ton:hover{
+
+                border: none;
+            }
     }
 
+
+
+@media only screen and (max-width: 316px){
+    .find_more .two_banner .product_map1{
+
+        min-width: 270px;
+    }
+    .find_more .two_banner .product_map2{
+
+        min-width: 270px;
+    }
+    .find_more .two_banner .product_map1 img{
+
+        max-width: 270px;
+    }
+    .find_more .two_banner .product_map2 img{
+
+        max-width: 270px;
+    }
 }
