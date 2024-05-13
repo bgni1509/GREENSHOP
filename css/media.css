@@ -138,4 +138,65 @@
     }
 
 }
+@media only screen and (max-width: 1200px){
+    .find_more .two_banner{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width: 1192px){
+    .find_more .two_banner .product_map1{
+        min-width: 521px;
+    }
+    .find_more .two_banner .product_map2{
+        min-width: 521px;
+    }
+    .find_more .two_banner{
+        justify-content: space-around;
+    }
+}
+@media only screen and (max-width: 1066px){
+    .find_more .two_banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .find_more .two_banner .product_map1{
+        margin-bottom: 35px;
+    }
+    .find_more .two_banner .product_map1 div{
+        margin-right: 15px;
+    }
+    .find_more .two_banner .product_map2 div{
+        margin-right: 15px;
+    }
+}
+@media only screen and (max-width: 525px){
+    .find_more .two_banner .product_map1{
+        flex-direction: column;
+        background: none;
+        max-height: 419px;
+        max-width: 350px;
+    }
+    .find_more .two_banner .product_map2{
+        flex-direction: column;
+        background: none;
+        max-height: 459px;
+        max-width: 350px;
+    }
+    .find_more .two_banner .product_map1 img{
+        position: inherit;
+    }
+    .find_more .two_banner .product_map2 img{
+        position: inherit;
+    }
+    .find_more .two_banner .product_map1 div{
+        /*margin-left: 100px;*/
+    }
+    .find_more .two_banner .product_map2 div{
+        /*margin-left: 100px;*/
+    }
+    .find_more .two_banner{
+        margin: auto;
+    }
 
+}

@@ -520,7 +520,7 @@
 }
 .find_more .two_banner .product_map1{
     min-width: 586px;
-    height: 250px;
+    min-height: 250px;
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
@@ -610,7 +610,7 @@
 }
 
 .find_more .two_banner .product_map2{
-    height: 250px;
+    min-height: 250px;
     background: #fbfbfb;
     justify-content: flex-end;
     display: flex;
