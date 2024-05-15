@@ -522,5 +522,21 @@ footer {
   }
 
 }
-
-
+.faq .ui-accordion .ui-accordion-header {
+  border-radius: 22px;
+  padding: 20px 16px;
+  background-color: transparent;
+  border: solid 2px #46a358; }
+.faq .ui-accordion .ui-accordion-header.ui-state-active {
+  background-color: antiquewhite;
+  border-bottom: none;
+  border-radius: 22px 22px 0px 0; }
+.faq .ui-state-active, .faq .ui-widget-content .ui-state-active, .faq .ui-widget-header .ui-state-active, .faq a.ui-button:active, .faq .ui-button:active, .faq .ui-button.ui-state-active:hover {
+  border: solid 2px #46a358;
+  color: black; }
+.faq .ui-accordion .ui-accordion-content {
+  border: solid 2px #46a358;
+  background-color: antiquewhite;
+  border-radius: 0px 0 22px 22px;
+  overflow: visible;
+  border-top: none; }
