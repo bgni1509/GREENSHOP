@@ -275,4 +275,112 @@
         margin: auto;
     }
 }
+@media only screen and (max-width: 1130px){
+    footer .top_footer .first_top:after{
+        display: none;
+    }
+    footer .top_footer .second_top:after{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1189px){
+    footer .bottom_footer{
+    align-items: inherit;
+    flex-wrap: inherit;
+    }
+    footer .bottom_footer ul{
+        min-width: 127px;
+    }
+}
+@media only screen and (max-width: 992px){
+    footer .bottom_footer{
+        padding-top: 20px;
+    }
+    footer .bottom_footer .first_div_bottom_footer{
+        margin-right: 100px;
+    }
+    footer .bottom_footer .second_div_bottom_footer{
+        margin-right: 100px;
+    }
+    footer .bottom_footer .third_div_bottom_footer{
+        margin-right: 150px;
+    }
+    footer .bottom_footer .social_bottom_footer{
+        margin-right: 100px;
+    }
+    footer .bottom_footer ul{
+        min-width: 101px;
+    }
+}
+@media only screen and (max-width: 768px){
+    footer .bottom_footer .first_div_bottom_footer{
+        margin-bottom: 25px;
+    }
+    footer .bottom_footer{
+        flex-wrap: wrap;
+    }
+    footer .bottom_footer .social_bottom_footer{
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 540px){
+    footer .top_footer{
+        flex-wrap: wrap;
+    }
+    footer .top_footer .first_top{
+        max-width: 130px;
+    }
+    footer .top_footer .second_top{
+        max-width: 130px;
+    }
+    footer .top_footer .third_top{
+        max-width: 130px;
+    }
+    footer .top_footer .form_h2{
+        margin: auto;
+    }
+    footer .middle_footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .bottom_footer .first_div_bottom_footer{
+        margin: auto;
+    }
+    footer .bottom_footer .second_div_bottom_footer{
+        margin: auto;
+    }
+    footer .bottom_footer .third_div_bottom_footer{
+        margin: auto;
+    }
+    footer .bottom_footer .social_bottom_footer{
+        margin: auto;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    footer .top_footer .third_top{
+        margin: auto;
+    }
+    footer .top_footer .form_h2{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    footer .bottom_footer .third_div_bottom_footer{
+        max-width: 100px;
+        padding-top: 10px;
+    }
+    footer .bottom_footer .social_bottom_footer{
+        text-align: center;
+    }
+    footer .form_h2 input{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 280px){
+    footer .top_footer .first_top{
+        max-width: 100px;
+    }
+}
+
 
