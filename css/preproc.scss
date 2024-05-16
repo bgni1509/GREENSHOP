@@ -540,3 +540,21 @@ footer {
   border-radius: 0px 0 22px 22px;
   overflow: visible;
   border-top: none; }
+.ui-state-active .ui-icon, .ui-button:active .ui-icon{
+  right: 20px;
+  position: absolute;
+  background-image: none;
+}
+
+.ui-accordion .ui-accordion-header span{
+  right: 20px;
+  position: absolute;
+  background-image: none;
+}
+.faq .ui-accordion .ui-accordion-header span{
+  content: url("../images/arrow_forward.svg");
+  transform: rotate(-90deg);
+}
+.faq .ui-accordion .ui-accordion-header.ui-state-active span{
+  transform: rotate(90deg);
+}
